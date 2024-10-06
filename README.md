@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank">
+    <a href="" target="_blank">
       <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner">
     </a>
   <br />
@@ -14,9 +14,7 @@
 
   <h3 align="center">Iphone 15 Website</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -30,12 +28,21 @@
 7. 🚀 [More](#more)
 
 ## 🚨 Tutorial
+<b>iPhone Website Clone: Recreate Apple’s Iconic Web Experience</b>
+The iPhone Website Clone is a high-fidelity replica of Apple’s renowned website, designed for those who appreciate sleek design, seamless functionality, and a premium user interface. Capturing the clean aesthetics and minimalist elegance that defines Apple’s online presence, this clone offers an immersive, user-centric experience. Perfect for showcasing tech products or creating sophisticated online stores, the clone emulates every detail of Apple's website to perfection.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+With pixel-perfect design, it mirrors Apple’s smooth animations, high-quality visuals, and dynamic transitions. Every interaction has been thoughtfully recreated to offer the same responsive, fluid experience, ensuring users can easily browse across any device—whether it’s a desktop, tablet, or mobile.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+The responsive design guarantees flawless adaptation to different screen sizes, while performance optimization ensures fast load times and smooth navigation. This is further enhanced by interactive product showcases, mimicking the intuitive product displays that Apple is known for, allowing users to engage deeply with the site’s content.
 
-<a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+Key Features:
+
+Apple-Like Design: Recreates the sleek, modern interface and intuitive navigation of Apple’s website.
+Responsive and Fast: Designed for optimal performance on all devices, ensuring smooth interactions and quick load times.
+Interactive Showcases: Provides engaging, detailed product views and interactive galleries for an immersive user experience.
+High-Resolution Visuals: Leverages high-quality images, animations, and transitions for a polished, professional look.
+<h1>Whether you are building a tech-forward e-commerce platform or a sleek product portfolio, the iPhone Website Clone delivers an authentic, high-quality experience modeled after one of the world’s most admired websites.</h1>
+
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -43,7 +50,7 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -72,6 +79,9 @@ and many more, including code architecture and reusability
 Follow these steps to set up the project locally on your machine.
 
 **Prerequisites**
+
+
+
 
 Make sure you have the following installed on your machine:
 
@@ -768,29 +778,3 @@ canvas {
 
 </details>
 
-## <a name="links">🔗 Links</a>
-
-Public Assets used in the project can be found [here](https://drive.google.com/file/d/1syHiNxSIGXVApaIozdrLXM2x5dPhvaJL/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
