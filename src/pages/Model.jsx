@@ -2,7 +2,7 @@
 
 const Model = () => {
     return (
-        <div>Model</div>
+        <div className="text-[red]">Model</div>
     )
 }
 
