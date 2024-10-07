@@ -9,6 +9,7 @@ import Features from "./pages/Features"
 import Hero from "./pages/Hero"
 import Highlights from "./pages/Highlights"
 import HowitWorks from "./pages/HowitWorks"
+import Model from "./pages/Model"
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -50,7 +51,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Highlights />
-      {/* <Model/> */}
+      <Model />
       <Features />
       <HowitWorks />
       <Footer />
