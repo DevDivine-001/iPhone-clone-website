@@ -3,6 +3,9 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import Footer from "./components/common/Footer"
+import Navbar from "./components/common/Navbar"
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -39,7 +42,10 @@
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
   )
 }
 

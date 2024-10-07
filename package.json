@@ -10,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@react-three/drei": "^9.114.2",
+    "@react-three/fiber": "^8.17.9",
+    "@sentry/react": "^7.119.1",
+    "@sentry/vite-plugin": "^2.22.5",
+    "gsap": "^3.12.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "three": "^0.162.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
