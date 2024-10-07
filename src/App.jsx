@@ -5,6 +5,10 @@
 
 import Footer from "./components/common/Footer"
 import Navbar from "./components/common/Navbar"
+import Features from "./pages/Features"
+import Hero from "./pages/Hero"
+import Highlights from "./pages/Highlights"
+import HowitWorks from "./pages/HowitWorks"
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -44,6 +48,11 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <Hero />
+      <Highlights />
+      {/* <Model/> */}
+      <Features />
+      <HowitWorks />
       <Footer />
     </div>
   )
