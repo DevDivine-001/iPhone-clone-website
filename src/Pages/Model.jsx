@@ -4,11 +4,12 @@ import { Canvas } from "@react-three/fiber";
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import ModelView from './ModelView'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { yellowImg } from '../utils'
 
 import * as THREE from 'three'
 import { models, sizes } from "../constants";
+import { animateWithGsapTimeline } from "../utils/animations";
 
 const Model = () => {
     useGSAP(() => {
@@ -18,7 +19,7 @@ const Model = () => {
     const [size, setSize] = useState('small')
     const [model, setModel] = useState({
         title: 'iPhone 15 Pro in Natural Titanium',
-        color: ['#8F8A81', '#FFE7B9', '#6F6C64', '#000', '#ff0000',],
+        color: ['#8F8A81', '#FFE7B9', '#ff0000',],
         img: yellowImg
     })
 
@@ -30,6 +31,29 @@ const Model = () => {
 
     const [smallRotation, setSmallRotation] = useState(0)
     const [largeRotation, setLargeRotation] = useState(0)
+
+    const tl = gsap.timeline()
+
+
+    useEffect(() => {
+
+        if (size === 'large') {
+            animateWithGsapTimeline(tl, small, smallRotation, '#view1', '#view2', {
+                transform: 'translateX(-100%)',
+                duration: 2
+            })
+
+        }
+
+        if (size === 'small') {
+            animateWithGsapTimeline(tl, large, largeRotation, '#view2', '#view1', {
+                transform: 'translateX(0)',
+                duration: 2
+            })
+
+        }
+
+    }, [size])
 
 
     return (

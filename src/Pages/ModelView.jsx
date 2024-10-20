@@ -5,6 +5,7 @@ import * as THREE from "three"
 import { PerspectiveCamera, View, OrbitControls, } from "@react-three/drei"
 import Lights from "./Lights"
 import IPhone from "./IPhone"
+import Loading from "./Loading"
 import { Suspense } from "react"
 
 const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, size, item }) => {
@@ -12,8 +13,8 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
         <View
             index={index}
             id={gsapType}
-            className={`w-full h-full ${index === 2 ? 'right-[-100%]' : ''}`}>
-            <ambientLight intensity={0.3} />
+            className={`w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}>
+            <ambientLight intensity={5} />
 
             <PerspectiveCamera makeDefault position={[0, 0, 4]} />
 
@@ -32,7 +33,7 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
 
             <group ref={groupRef} name={`${index === 1} ?'small' 'large`} position={[0, 0, 0]}>
 
-                <Suspense fallback={<div>Loading</div>}>
+                <Suspense fallback={<Loading />}>
                     <IPhone
                         scale={index === 1 ? [15, 15, 15] : [17, 17, 17]}
                         item={item}
